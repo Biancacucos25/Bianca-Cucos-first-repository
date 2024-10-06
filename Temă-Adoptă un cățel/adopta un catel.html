@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoptă un Cățel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Adoptă un Cățel</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Acasă</a></li>
+                <li><a href="#adopt">Căței disponibili</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="intro">
+        <h2>Bun venit la Adoptă un Cățel!</h2>
+        <p>Dacă iubești animalele și dorești să adopți un prieten blănos, ai ajuns în locul potrivit!</p>
+    </section>
+
+    <section id="adopt" class="dogs">
+        <h2>Căței disponibili pentru adopție</h2>
+		
+		<!-- Tabel-->
+    <table>
+        <thead>
+            <tr>
+                <th>Nume</th>
+                <th>Vârstă</th>
+                <th>Rasă</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Max</td>
+                <td>2 ani</td>
+                <td>Kangal turcesc</td>
+            </tr>
+            <tr>
+                <td>Bella</td>
+                <td>1 an</td>
+                <td>Teckel arlequin</td>
+            </tr>
+            <tr>
+                <td>Lilith</td>
+                <td>3 ani</td>
+                <td>Chaw chaw</td>
+            </tr>
+        </tbody>
+    </table>
+        <div class="dog-card">
+            <img src="dog1.jpg" alt="Cățel 1">
+            <h3>Max</h3>
+            <p>Max este un cățel jucăuș de 2 ani, care iubește plimbările lungi, jocurile și drumețiile pe munte.</p>
+        </div>
+        <div class="dog-card">
+            <img src="dog2.jpg" alt="Cățel 2">
+            <h3>Bella</h3>
+            <p>Bella este o cățelușă de 1 an, foarte afectuoasă și prietenoasă cu copiii.</p>
+        </div>
+        <div class="dog-card">
+            <img src="dog3.jpg" alt="Cățel 3">
+            <h3>Lilith</h3>
+            <p>Lilith este o cățelușă energică de 3 ani, perfectă pentru familii active.</p>
+        </div>
+		<!-- Buton -->
+    <div class="adopt-button">
+        <a href="#contact" class="button">Adoptă un cățel!!!</a>
+	</div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contactează-ne</h2>
+        <p>Vrei să adopți un cățel sau ai întrebări? Scrie-ne folosind formularul de mai jos!</p>
+        <form action="#" method="post">
+            <label for="name">Nume:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mesaj:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Trimite">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Adoptă un Cățel - Laborator 1 - Grupa 1 - Cucoș Bianca-Elena - Informatică IFR.</p>
+    </footer>
+</body>
+</html>
